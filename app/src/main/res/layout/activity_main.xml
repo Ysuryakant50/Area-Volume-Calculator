@@ -35,11 +35,30 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:background="@drawable/upper_layout"/>
+                android:background="@drawable/upper_layout">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/area"/>
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/lower_layout"/>
+                android:layout_height="55dp"
+                android:background="@drawable/lower_layout">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#5c5b5b"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:backgroundTint="#e8e8e6"
+                    android:text="Area\nCalculator" />
+            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -51,11 +70,28 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:background="@drawable/upper_layout"/>
+                android:background="@drawable/upper_layout">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/volume"/>
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/lower_layout"/>
+                android:layout_height="55dp"
+                android:background="@drawable/lower_layout">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#5c5b5b"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:backgroundTint="#e8e8e6"
+                    android:text="Volume Calculator" />
+            </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
@@ -74,11 +110,28 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:background="@drawable/upper_layout"/>
+                android:background="@drawable/upper_layout">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/area_formula"/>
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/lower_layout"/>
+                android:layout_height="55dp"
+                android:background="@drawable/lower_layout">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#5c5b5b"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:backgroundTint="#e8e8e6"
+                    android:text=" Area \nFormula " />
+            </LinearLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -90,11 +143,28 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
-                android:background="@drawable/upper_layout"/>
+                android:background="@drawable/upper_layout">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/volume_formula"/>
+            </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:background="@drawable/lower_layout"/>
+                android:layout_height="55dp"
+                android:background="@drawable/lower_layout">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#5c5b5b"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:backgroundTint="#e8e8e6"
+                    android:text="Volume\nFormula" />
+            </LinearLayout>
         </LinearLayout>
 
     </LinearLayout>
